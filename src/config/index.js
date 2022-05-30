@@ -10,6 +10,7 @@ let config = {
 
 switch (env) {
     case "stage":
+        console.log(env);
         config.baseURL="https://stage.skillsunion.com"
         break;
     case "production":
